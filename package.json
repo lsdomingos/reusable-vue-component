@@ -1,8 +1,8 @@
 {
-  "name": "alr-clock",
+  "name": "reusable-vue-component",
   "version": "1.0.4",
   "description": "A Vue.js reusable UI component",
-  "main": "dist/vue-clock.js",
+  "main": "dist/reusable-vue-component.js",
   "scripts": {
     "build": "rimraf ./dist && webpack --config ./webpack.config.js"
   },

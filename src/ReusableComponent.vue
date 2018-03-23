@@ -1,6 +1,8 @@
 <template>
-    <div>{{ display }}</div>
-    <p>{{msg}}</p>
+    <div>
+     {{ display }}
+     <p>{{msg}}</p>
+    </div>
 </template>
 <script>
     import moment from 'moment';

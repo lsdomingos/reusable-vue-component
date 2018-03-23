@@ -44,17 +44,17 @@ module.exports = [
   merge(config, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'vue-clock.min.js',
+      filename: 'reusable-vue-component.min.js',
       libraryTarget: 'window',
-      library: 'VueClock',
+      library: 'ReusableComponent',
     }
   }),
   merge(config, {
-    entry: path.resolve(__dirname + '/src/Clock.vue'),
+    entry: path.resolve(__dirname + '/src/ReusableComponent.vue'),
     output: {
-      filename: 'vue-clock.js',
+      filename: 'reusable-vue-component.js',
       libraryTarget: 'umd',
-      library: 'vue-clock',
+      library: 'ReusableComponent',
       umdNamedDefine: true
     }
   })

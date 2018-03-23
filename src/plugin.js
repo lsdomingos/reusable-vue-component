@@ -1,7 +1,7 @@
-import Clock from './Clock.vue';
+import ReusableComponent from './ReusableComponent.vue';
 
 module.exports = {
   install: function (Vue, options) {
-    Vue.component('vue-clock', Clock);
+    Vue.component('reusable-vue-component', ReusableComponent);
   }
 };
