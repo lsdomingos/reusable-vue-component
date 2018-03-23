@@ -14,7 +14,7 @@ Include the script file, then install the component with `Vue.use(ReusableCompon
 
 ```html
 <script type="text/javascript" src="node_modules/vuejs/dist/vue.min.js"></script>
-<script type="text/javascript" src="node_modules/vue-clock-simple/dist/reusable-vue-component.min.js"></script>
+<script type="text/javascript" src="node_modules/reusable-vue-component/dist/reusable-vue-component.min.js"></script>
 <script type="text/javascript">
   Vue.use(ReusableComponent);
 </script>
