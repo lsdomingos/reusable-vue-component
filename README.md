@@ -1,31 +1,29 @@
-# vue-clock-simple
+# reusable-vue-component
 
-A Vue component that shows a clock.
-
-This isn't particularly useful, it's used as a demo for how to publish Vue components to NPM!
+This is a reusable UI component based in Vue.js
 
 ## Installation
 
 ```js
-npm i --save-dev vue-clock-simple
+npm i --save-dev reusable-vue-component
 ```
 
 ### Browser
 
-Include the script file, then install the component with `Vue.use(VueClock);` e.g.:
+Include the script file, then install the component with `Vue.use(ReusableComponent);` e.g.:
 
 ```html
 <script type="text/javascript" src="node_modules/vuejs/dist/vue.min.js"></script>
-<script type="text/javascript" src="node_modules/vue-clock-simple/dist/vue-clock.min.js"></script>
+<script type="text/javascript" src="node_modules/vue-clock-simple/dist/reusable-vue-component.min.js"></script>
 <script type="text/javascript">
-  Vue.use(VueClock);
+  Vue.use(ReusableComponent);
 </script>
 ```
 
 ### Module
 
 ```js
-import VueClock from 'vue-clock';
+import ReusableComponent from 'reusable-vue-component';
 ```
 
 ## Usage
@@ -33,5 +31,5 @@ import VueClock from 'vue-clock';
 Once installed, it can be used in a template as simply as:
 
 ```html
-<vue-clock></vue-clock>
+<reusable-vue-component msg='your string' onUpdate="function to be triggered"></reusable-vue-component>
 ```
