@@ -25,7 +25,7 @@
     "rimraf": "^2.6.1",
     "vue": "^2.2.1",
     "vue-html-loader": "^1.2.3",
-    "vue-loader": "^11.1.4",
+    "vue-loader": "^17.0.1",
     "vue-style-loader": "^2.0.3",
     "vue-template-compiler": "^2.2.1",
     "webpack": "1.13.1",
